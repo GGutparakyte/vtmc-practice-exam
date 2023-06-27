@@ -54,6 +54,8 @@ const Services = () => {
 
   const { get: getServices } = useFetch(`${process.env.REACT_APP_BASE_URL}/api/services`, { method: 'GET' });
   const { post: addNewService } = useFetch(`${process.env.REACT_APP_BASE_URL}/api/services/newService`, { method: 'POST' });
+  const { put: editService } = useFetch(`${process.env.REACT_APP_BASE_URL}/api/services/editService`, { method: 'PUT' });
+  const { delete: deleteService } = useFetch(`${process.env.REACT_APP_BASE_URL}/api/services/deleteService${serviceData}`, { method: 'DELETE' });
 
   useEffect(() => {
     getServices().then((response: Service[]) => {
