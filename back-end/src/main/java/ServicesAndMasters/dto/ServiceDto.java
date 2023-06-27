@@ -3,8 +3,9 @@ package ServicesAndMasters.dto;
 import lombok.Data;
 
 @Data
-public class UserDto {
-    private int userId;
-    private String name;
-    private int age;
+public class ServiceDto {
+    private int serviceId;
+    private String serviceName;
+    private String serviceAddress;
+    private String serviceCEO;
 }

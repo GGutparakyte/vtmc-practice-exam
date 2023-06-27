@@ -1,13 +1,9 @@
-package Animations.example.Animations;
+package ServicesAndMasters.example.ServicesAndMasters;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AnimationsApplicationTests {
-
-//	@Test
-//	void contextLoads() {
-//	}
+class ServicesAndMastersApplicationTests {
 
 }

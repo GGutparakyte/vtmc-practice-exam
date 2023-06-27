@@ -4,22 +4,26 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "users")
+@Table(name = "services")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class User {
+public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "user_id")
-    private Integer userId;
+    @Column(name = "service_id")
+    private Integer serviceId;
 
-    @Column(name = "name")
+    @Column(name = "serviceName")
     @NonNull
-    private String name;
+    private String serviceName;
 
-    @Column(name = "age")
+    @Column(name = "serviceAddress")
     @NonNull
-    private int age;
+    private String serviceAddress;
+
+    @Column(name = "serviceCEO")
+    @NonNull
+    private String serviceCEO;
 }
