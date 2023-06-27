@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "buttons": {
+            "explore": "Explore now",
+            "hover": "Hover me",
+            "language_EN": "EN",
+            "login": "Login",
+            "register": "Register"
+        },
+        "navbar": {
+            "home": "Home",
+            "masters": "Masters",
+            "login": "Login",
+            "register": "Register"
+        },
+        "landingPage":{
+            "headerSection":{
+                "title": "Animations",
+                "subTitle": "Upgrade your project with one click"
+            },
+            "loginSection": {
+                "login": "Login",
+                "register": "Registration"
+            }
+        }
+    }
+
+}

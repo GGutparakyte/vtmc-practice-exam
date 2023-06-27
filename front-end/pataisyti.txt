@@ -1,0 +1,4 @@
+1. Pagal prop'sus nustatyti stilių
+2. Languages LT/EN/RU mappinimas
+3. Buttons large - negaliu naudoti disabled 
+4. Navigacija landing page - 

@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "buttons": {
+            "explore": "Исследовать",
+            "hover": "Наведите меня",
+            "language_RU": "RU",
+            "login": "Авторизоваться",
+            "register": "Rегистр"
+        },
+        "navbar": {
+            "home": "Дом",
+            "masters": "Мастера",
+            "login": "Авторизоваться",
+            "register": "Pегистр"
+        },
+        "landingPage":{
+            "headerSection":{
+                "title": "Animacijos RU",
+                "subTitle": "Обновите свой проект одним щелчком мыши"
+            },
+            "loginSection": {
+                "login": "Авторизоваться",
+                "register": "Pегистр"
+            }
+        }
+    }
+
+}

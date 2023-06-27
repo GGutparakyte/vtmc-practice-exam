@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "buttons": {
+            "explore": "Naršykite",
+            "hover": "Užvesk",
+            "language_LT": "LT",
+            "login": "Prisijungti",
+            "register": "Registruotis"
+        },
+        "navbar": {
+            "home": "Pagrindinis",
+            "masters": "Meistrai",
+            "login": "Prisijungti",
+            "register": "Registruotis"
+        },
+        "landingPage":{
+            "headerSection":{
+                "title": "Animacijos",
+                "subTitle": "Atnaujinkite savo projektą vienu paspaudimu"
+            },
+            "loginSection": {
+                "login": "Prisijungti",
+                "register": "Registracija"
+            }
+        }
+    }
+
+}
